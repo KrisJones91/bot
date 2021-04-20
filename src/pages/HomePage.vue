@@ -2,15 +2,17 @@
   <div class="home container-fluid">
     <div class="row bg-top justify-content-center">
       <div class="col-6 mt-5 text-white text-center">
-        <h1>Want to be a social media influencer?</h1>
+        <h1 class="t-shadow">
+          Want to be a social media influencer?
+        </h1>
       </div>
     </div>
     <div class="row pb-5 bg-top justify-content-center">
       <div class="col-8 text-center text-white">
-        <p class="m-0">
-          We're here to help you get the <em class="text-dark"><b>BUZZ</b></em> you've always deserved!
+        <p class="m-0 t-shadow">
+          We're here to help you get the <em class="text-dark"><b class="b-shadow">BUZZ</b></em> you've always deserved!
         </p>
-        <p class="m-0">
+        <p class="m-0 t-shadow">
           <small>Purchase followers, likes, and views in 3 simple steps!</small>
         </p>
         <!-- <p>Let <b>Social Buzz</b> help you get the <em class="text-danger">buzz</em> you've always deserved!</p>
@@ -22,7 +24,7 @@
         <h1 class="m-3 text-center">
           How it works:
         </h1>
-        <div class="card hiw-card">
+        <div class="card pb-3 hiw-card">
           <div class="row justify-content-center">
             <div class="col box1 text-center">
               <h1 class="step">
@@ -69,16 +71,21 @@
           </div>
           <div class="row">
             <div class="col-4 mt-2 text-center">
-              <p>The best prices to get the most out of your buck!</p>
+              <p>The best prices to get the most out for your dollar!</p>
             </div>
             <div class="col-4 mt-2 text-center">
               <p>Account <em><b>MUST be PUBLIC</b></em> to recieve followers!</p>
             </div>
             <div class="col-4 mt-2 text-center">
-              <p>Our secure  Youre financial information is never stored!</p>
+              <p>Secure  Youre financial information is never stored.</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col text-center">
+        <h1>Packages</h1>
       </div>
     </div>
   </div>
@@ -94,10 +101,17 @@ export default {
 .bg-top{
   background-image: linear-gradient(to right,rgba(71, 15, 15), rgb(170, 22, 22), rgb(170, 22, 22), rgb(71, 15, 15));
 }
-
+.t-shadow{
+  text-shadow: 3px 6px 10px rgb(37, 37, 37)
+}
+.b-shadow{
+  text-shadow: -4px 2px 10px rgb(170, 22, 22);
+}
 .hiw-card{
   box-shadow: 3px 8px 12px rgb(153, 152, 152);
-  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(197, 197, 197));
+  border: none;
+
 }
 
 .step{
