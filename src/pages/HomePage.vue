@@ -110,6 +110,14 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="card scard p-1 mt-2 text-center img-fluid">
+          <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
+          <img src="../assets/img/twitter.png" alt="">
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -143,7 +151,8 @@ margin-top: 5%;
 
 .scard{
   border-radius: 10%;
-  background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(197, 197, 197));
+  background-image: linear-gradient(720deg, rgb(255, 255, 255), rgb(197, 197, 197));
+  box-shadow: 3px 8px 12px rgb(153, 152, 152);
 }
 
 </style>
