@@ -91,25 +91,21 @@
     <div class="row">
       <div class="col-3">
         <div class="card scard p-1 text-center img-fluid">
-          <!-- <i class="fab fa-instagram fa-8x" id="insta"></i> -->
           <img src="../assets/img/insta.png" alt="">
         </div>
       </div>
       <div class="col-3">
         <div class="card scard p-1 text-center img-fluid">
-          <!-- <i class="fab fa-facebook fa-8x" id="fbook"></i> -->
           <img src="../assets/img/fbook.png" alt="">
         </div>
       </div>
       <div class="col-3">
         <div class="card scard p-1 text-center img-fluid">
-          <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
           <img src="../assets/img/tiktoklogo.png" alt="">
         </div>
       </div>
       <div class="col-3">
         <div class="card scard p-1 text-center img-fluid">
-          <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
           <img src="../assets/img/yt.png" alt="">
         </div>
       </div>
@@ -157,10 +153,5 @@ margin-top: 5%;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
-#fbook{
-color:  blue;
-}
-.tiktok{
 
-}
 </style>
