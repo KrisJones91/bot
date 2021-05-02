@@ -17,6 +17,11 @@ const routes = [
   //   component: loadPage('AboutPage')
   // },
   {
+    path: '/instagrampage',
+    name: 'InstagramPage',
+    component: loadPage('InstagramPage')
+  },
+  {
     path: '/account',
     name: 'Account',
     component: loadPage('AccountPage'),

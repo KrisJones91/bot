@@ -15,8 +15,6 @@
         <p class="m-0 t-shadow">
           <small>Purchase followers, likes, and views in 3 simple steps!</small>
         </p>
-        <!-- <p>Let <b>Social Buzz</b> help you get the <em class="text-danger">buzz</em> you've always deserved!</p>
-      </div> -->
       </div>
     </div>
     <div class="row justify-content-center">
@@ -85,14 +83,18 @@
     </div>
     <div class="row my-3">
       <div class="col text-center">
-        <h1>Social Media</h1>
+        <h1>
+          Social Media
+        </h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-3">
-        <div class="card scard p-1 text-center img-fluid">
-          <img src="../assets/img/insta.png" alt="">
-        </div>
+        <router-link :to="{name: 'InstagramPage' }">
+          <div class="card scard p-1 text-center img-fluid">
+            <img src="../assets/img/insta.png" alt="">
+          </div>
+        </router-link>
       </div>
       <div class="col-3">
         <div class="card scard p-1 text-center img-fluid">
@@ -110,7 +112,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center mb-3">
       <div class="col-3">
         <div class="card scard p-1 mt-2 text-center img-fluid">
           <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
@@ -121,6 +123,18 @@
         <div class="card scard p-1 mt-2 text-center img-fluid">
           <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
           <img src="../assets/img/sc1.png" alt="">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card scard p-1 mt-2 text-center img-fluid">
+          <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
+          <img src="../assets/img/pt.png" alt="">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card scard p-1 mt-2 text-center img-fluid">
+          <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
+          <img src="../assets/img/spotify.png" alt="">
         </div>
       </div>
     </div>
@@ -160,5 +174,7 @@ margin-top: 5%;
   background-image: linear-gradient(720deg, rgb(255, 255, 255), rgb(197, 197, 197));
   box-shadow: 3px 8px 12px rgb(153, 152, 152);
 }
-
+.scard:hover{
+  transform: scale(1.07);
+}
 </style>
