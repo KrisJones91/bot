@@ -77,7 +77,7 @@
               <p>Account <em><b>MUST be PUBLIC</b></em> to recieve followers!</p>
             </div>
             <div class="col-4 mt-2 text-center">
-              <p>Secure  Youre financial information is never stored.</p>
+              <p>Youre financial information is never stored.</p>
             </div>
           </div>
         </div>
@@ -85,7 +85,33 @@
     </div>
     <div class="row my-3">
       <div class="col text-center">
-        <h1>Packages</h1>
+        <h1>Social Media</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="card scard p-1 text-center img-fluid">
+          <!-- <i class="fab fa-instagram fa-8x" id="insta"></i> -->
+          <img src="../assets/img/insta.png" alt="">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card scard p-1 text-center img-fluid">
+          <!-- <i class="fab fa-facebook fa-8x" id="fbook"></i> -->
+          <img src="../assets/img/fbook.png" alt="">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card scard p-1 text-center img-fluid">
+          <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
+          <img src="../assets/img/tiktoklogo.png" alt="">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card scard p-1 text-center img-fluid">
+          <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
+          <img src="../assets/img/yt.png" alt="">
+        </div>
       </div>
     </div>
   </div>
@@ -117,5 +143,24 @@ export default {
 .step{
 text-decoration: underline red;
 margin-top: 5%;
+}
+
+.scard{
+  border-radius: 10%;
+  background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(197, 197, 197));
+}
+#insta{
+ background-image: linear-gradient(45deg, #404de6, #5851db, #833AB4, #c13584, #e1306c, #fd1d1d );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+#fbook{
+color:  blue;
+}
+.tiktok{
+
 }
 </style>
