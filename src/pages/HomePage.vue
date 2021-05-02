@@ -145,13 +145,5 @@ margin-top: 5%;
   border-radius: 10%;
   background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(197, 197, 197));
 }
-#insta{
- background-image: linear-gradient(45deg, #404de6, #5851db, #833AB4, #c13584, #e1306c, #fd1d1d );
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
 
 </style>
