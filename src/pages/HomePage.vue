@@ -117,6 +117,12 @@
           <img src="../assets/img/twitter.png" alt="">
         </div>
       </div>
+      <div class="col-3">
+        <div class="card scard p-1 mt-2 text-center img-fluid">
+          <!-- <i class="fab fa-tiktok fa-8x" id="tiktok"></i> -->
+          <img src="../assets/img/sc1.png" alt="">
+        </div>
+      </div>
     </div>
   </div>
 </template>
