@@ -24,6 +24,9 @@
         </div>
       </div>
     </div>
+    <div class="row mt-2 justify-content-center">
+      <h1>Followers</h1>
+    </div>
     <div class="row mt-3 justify-content-center">
       <div class="col-3">
         <div class="card card-two text-white text-center">
@@ -90,7 +93,7 @@
         </div>
       </div>
     </div>
-    <div class="row mt-3 justify-content-center">
+    <div class="row mt-3 justify-content-center mb-4">
       <div class="col-3">
         <div class="card card-two text-white text-center">
           <h4 class="mt-2 mb-0">
@@ -180,11 +183,13 @@ export default {
 .main-card{
   border: transparent;
   border-radius: 15px;
+  box-shadow: 3px 8px 12px rgb(153, 152, 152);
 }
 .card-two{
-  border-radius: 10px;
+  border-radius: 5px;
   background-image:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13063, #fd1d1d);
   border: none;
+  box-shadow: 3px 8px 12px rgb(153, 152, 152);
 }
 
 </style>

@@ -173,8 +173,10 @@ margin-top: 5%;
   border-radius: 10%;
   background-image: linear-gradient(720deg, rgb(255, 255, 255), rgb(197, 197, 197));
   box-shadow: 3px 8px 12px rgb(153, 152, 152);
+  transition: all .27s ease-in-out;
 }
 .scard:hover{
+  transition: 2sS;
   transform: scale(1.07);
 }
 </style>
