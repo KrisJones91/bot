@@ -27,6 +27,29 @@
     <div class="row mt-2 justify-content-center">
       <h1>Followers</h1>
     </div>
+
+    <!-- //adding carousel -->
+    <div class="mySlides fade">
+      <div class="container-hr">
+        <div class="col-3">
+          <div class="card card-two text-white text-center">
+            <h4 class="mt-2 mb-0">
+              BUY
+            </h4>
+            <h5 class="mb-3">
+              <b>250 followers</b>
+            </h5>
+            <h2 class="pb-2">
+              <b>$2.99</b>
+            </h2>
+            <button class="btn btn-dark">
+              Purchase
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="row mt-3 justify-content-center">
       <div class="col-3">
         <div class="card card-two text-white text-center">
@@ -191,5 +214,7 @@ export default {
   border: none;
   box-shadow: 3px 8px 12px rgb(153, 152, 152);
 }
+
+/* adding scroll */
 
 </style>
